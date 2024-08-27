@@ -1,4 +1,2 @@
 ini test 2
 Hala Madrid
-
-conflict
