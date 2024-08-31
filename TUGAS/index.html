@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TUGAS HTML</title>
+    </head>
+    <body>
+        <h1>Belajar Dasar HTML</h1>
+        <ul>
+            <li><a href="#pengertiantag">Ke Pengertian Tag</a></li>
+            <li><a href="#atributhtml">Ke Atribut HTML</a></li>
+            <li><a href="#nilaivalueatribut">Ke Nilai Value Atribut</a></li>
+            <li><a href="#strukturhtml">Ke Struktur HTML</a></li>
+        </ul>
+        <p><h2 id="pengertiantag"><b>Pengertian Tag</b></h2></p>
+        <p>Tag adalah sebuah penanda awalan dan akhiran dari sebuah elemen di HTML. Tag dibuat dengan kurung siku (<...>). 
+            Lalu di dalamnya berisi nama tag dan kadang juga ditambahkan dengan atribut.</p>
+        <p>Contoh tag HTML :</p>
+        <ul>
+            <li>< html > : untuk memulai html</li>
+            <li>< head > : untuk bagian kepala dokumen</li>
+            <li>< body > : untuk bagian tubuh dokumen</li>
+            <li>< p > : untuk membuat paragraph</li>
+        </ul>
+
+
+        <p><h2 id="atributhtml"><b>Atribut HTML</b></h2></p>
+        <p>Atribut adalah kata kunci khusus yang berada di dalam tag pembuka. 
+            Atribut juga disebut sebagai modifier yang akan menentukan perilaku dari elemen.</p>
+        
+            <img src="atribut.png" title="Atribut" >
+        <p>Atribut dapat ditambahkan pada elemen manapun. Ada juga elemen yang mewajibkan menggunakan atribut seperti elemen
+            <code>< a ></code>,<code>< img ></code>,<code>< video ></code>, dll.</p>
+
+        <p><h2 id="nilaivalueatribut"><b>Nilai Value Atribut</b></h2></p>
+        <p>Dalam konteks HTML, nilai (value) dalam sebuah atribut adalah informasi tambahan yang diberikan
+            untuk menentukan karakteristik atau properti dari elemen HTML tersebut.
+            Atribut terdiri dari dua bagian : nama (name) dan nilai (value).
+            Nilai ini biasanya ditulis didalam tanda kutip setelah nama atribut.
+        </p>
+        <p>Contoh sederhana :</p>
+            <img src="gambar.png" title="Gambar">
+        <p>Diatas, src adalah nama atribut yang menentukan sumber gambar, dan "gambar.jpg"
+            adalah nilai atribut tersebut. Begitu juga alt adalah nama atribut yang memberikan teks alternatif untuk gambar,
+            dan "Deskripsi Gambar" adalah nilai atributnya </p>
+
+        <p><h2 id="strukturhtml"><b>Struktur HTML</b></h2></p>
+        <p>Pada HTML terdapat kerangka inti yang membangunya seperti tag, element, dan attribut. </p>
+        <ol>
+            <li>Tag</li>
+            <p>Tag merupakan bagian pembuka dan penutup yang digambarkan dengan <..> </..> lalu dalamnya akan diisi dengan nama tag dan atribut yang nantinya akan diproses oleh browser. Setiap tag memiliki fungsinya masing-masing. 
+                Misalnya kamu ingin membuat judul maka menggunakan tag < h1 >< /h1 > dan jika ingin menambahkan image maka menggunakan tag < img ></ img >.</p>
+            <li>Element</li>
+            <p>Element adalah keseluruhan dari awal tag hingga penutup tag. Berarti element berisi tag pembuka, isi tag, dan tag penutup. Contohnya seperti ini.
+                < h1 >Belajar HTML Bersama DomaiNesia < /h1 >. </p>
+            <li>Atribut</li>
+            <p>Attribute adalah informasi yang bisa ditambahkan dalam setiap element untuk mengatur dan menambahkan sesuatu. Misalnya dalam penggunakan tag images. 
+                Maka dapat dilengkapi menjadi < img src=”html.jpg” alt=”html”/ >. Dari tag tersebut artinya bahwa image akan memproses gambar komputer dan alt akan menampilkan tulisan “html” jika gambar gagal diproses.</p>
+        </ol>
+        <br><br><br><br><br>
+        <p> Klik <a href="http://www.w3schools.com">disini</a> untuk mengetahui informasi lebih lengkap</p>
+
+        <table border="1" cellspacing="0" cellpadding="5">
+            <tr>
+                <td colspan="3">Daftar Nama Peserta Tahun 2024</td>
+            </tr>
+            <tr>
+                <td><b>No</b></td>
+                <td><b>Nama</b></td>
+                <td><b>Provinsi</b></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Budi</td>
+                <td>Jateng</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Rudi</td>
+                <td>Jabar</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ahmad</td>
+                <td>Sumbar</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Yahya</td>
+                <td>NTT</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Nur</td>
+                <td>Sumsel</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Saifullah</td>
+                <td>Sumsel</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Ujang</td>
+                <td>Sumut</td>
+            </tr>
+        </table>
+        <br><br>
+        <table border="1" cellspacing="0" cellpadding="5">
+            <tr>
+                <td colspan="3">Daftar Nama Atlet Olympic 2024</td>
+            </tr>
+            <tr>
+                <td><b>Cabor</b></td>
+                <td><b>Nama</b></td>
+                <td><b>Provinsi</b></td>
+            </tr>
+            <tr>
+                <td rowspan="3">Panahan</td>
+                <td>Budi</td>
+                <td>Jateng</td>
+            </tr>
+            <tr>
+                <td>Rudi</td>
+                <td>Jabar</td>
+            </tr>
+            <tr>
+                <td>Ahmad</td>
+                <td>Sumbar</td>
+            </tr>
+            <tr>
+                <td rowspan="4">Atletik</td>
+                <td>Yahya</td>
+                <td>NTT</td>
+            </tr>
+            <tr>
+                <td>Nur</td>
+                <td rowspan="2">Sumsel</td>
+            </tr>
+            <tr>
+                <td>Saifullah</td>
+            </tr>
+            <tr>
+                <td>Ujang</td>
+                <td>Sumut</td>
+            </tr>
+        </table>
+        <br><br>
+        <table border="1" cellspacing="0" cellpadding="5">
+            <tr>
+                <td colspan="5">Daftar Bonus Peraih Medali Olympic Paris 2024</td>
+            </tr>
+            <tr>
+                <td><b>Cabor</b></td>
+                <td><b>Emas</b></td>
+                <td><b>Perak</b></td>
+                <td><b>Perunggu</b></td>
+                <td><b>Nominal</b></td>
+            </tr>
+            <tr>
+                <td>Panahan</td>
+                <td>50000000</td>
+                <td>25000000</td>
+                <td>15000000</td>
+                <td>90000000</td>
+            </tr>
+            <tr>
+                <td>#</td>
+                <td colspan="3">Sub Total</td>
+                <td>90000000</td>
+            </tr>
+            <tr>
+                <td>Atletik</td>
+                <td>60000000</td>
+                <td>30000000</td>
+                <td>20000000</td>
+                <td>110000000</td>
+            </tr>
+            <tr>
+                <td>#</td>
+                <td colspan="3">Sub Total</td>
+                <td>110000000</td>
+            </tr>
+            <tr>
+                <td>Badminton</td>
+                <td>80000000</td>
+                <td>50000000</td>
+                <td>30000000</td>
+                <td>160000000</td>
+            </tr>
+            <tr>
+                <td>#</td>
+                <td colspan="3">Sub Total</td>
+                <td>160000000</td>
+            </tr>
+            <tr>
+                <td colspan="4"><b>Grand Total</b></td>
+                <td>360000000</td>
+            </tr>
+        </table>
+        <h2>FORM HTML</h2>
+
+        <form>
+            <label for="fname">Nama Lengkap:</label><br>
+    <input type="text" id="fname" name="fname" value="Nama Lengkap"><br>
+           <br> <label for="fname">No HP:</label><br>
+    <input type="text" id="fname" name="fname" value="Nomor HP Aktif"><br>
+    <p>Provinsi</p>
+    <select> 
+        
+        <option>Sumatera Selatan</option>
+        <option>Jawa Tengah</option>
+        <option>Riau</option>
+        <option>Jawa Barat</option>
+        <option>Kalimantan Timur</option>
+        
+    </select>
+    <p>Kota</p>
+    <select>
+        <option>Pekanbaru</option>
+        <option>Palembang</option>
+        <option>Lampung</option>
+        <option>Jakarta</option>
+        <option>Bandung</option>
+        <option>Semarang</option>
+        <option>Yogyakarta</option>
+        <option>Surabaya</option>
+        <option>Denpasar</option>
+        <option>Makasar</option>
+    </select>
+    <p> Alamat </p>
+    <textarea rows="10" cols="50">Alamat Lengkap...</textarea>
+    <p>Jenis Kelamin</p>
+            <input type="radio" id="pria" name="jeniskelamin"><label for="pria">pria</label>
+            <input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">wanita</label>
+    <p>Tanggal Lahir</p>
+    <br>
+    <label for="birthdate"></label>
+    <input type="date" id="birthdate" name="birthdate" min="1900-01-01" max="2024-08-31">
+
+    <p>Apakah sudah memiliki paspor?</p>
+    <br>
+            <input type="checkbox" id="sudah"><label for="sudah">sudah</label>
+            
+            <br><input type="submit" value="submit">
+        </form>
+
+    </body>
+</html>
